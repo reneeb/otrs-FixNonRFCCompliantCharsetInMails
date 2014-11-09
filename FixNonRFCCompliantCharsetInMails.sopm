@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.1">
     <Name>FixNonRFCCompliantCharsetInMails</Name>
-    <Version>1.0.2</Version>
+    <Version>4.0.1</Version>
     <Vendor>Renee Baecker, Perl-Services.de</Vendor>
     <URL>http://perl-services.de/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">Fix mails with non-RFC-compliant charset settings (like 'charset = "utf-8"').</Description>
     <Description Lang="de">Fixe Mails mit nicht-RFC-konformen charset-Einstellungen (wie 'charset = "utf-8"').</Description>
-    <Framework>3.0.x</Framework>
+    <Framework>4.0.x</Framework>
     <Filelist>
         <File Location="Custom/Kernel/System/PostMaster.pm" Permission="644"/>
     </Filelist>
